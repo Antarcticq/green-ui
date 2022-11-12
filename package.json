@@ -2,6 +2,7 @@
   "name": "me-vue-ui",
   "version": "0.1.2",
   "description": "A Vue.js 2.X UI Toolkit for Web",
+  "homepage": "https://github.com/Antarcticq/green-ui/",
   "main": "lib/me-vue-ui.common.js",
   "keyword": [
     "me-vue",
