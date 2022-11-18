@@ -12,9 +12,15 @@ const routes = [
 ];
 
 routes.push({
-  path: '/test',
-  name: 'test',
+  path: '/loading',
+  name: 'loading',
   component: (resolve) => require(['./docs/loading.md'], resolve),
+});
+
+routes.push({
+  path: '/card',
+  name: 'card',
+  component: (resolve) => require(['./docs/card.md'], resolve),
 });
 
 routes.push({

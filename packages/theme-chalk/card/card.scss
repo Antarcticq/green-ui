@@ -1,0 +1,14 @@
+.g-card {
+  width: 270px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  box-shadow: 0 6px 10px 0 rgba(95, 101, 105, 0.15);
+  padding-bottom: 8px;
+
+  &_header {
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+  }
+}

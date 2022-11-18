@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> | <router-link to="/jsx">JSX</router-link> |
-      <router-link to="/test">loading组件</router-link>
+    <main-header></main-header>
+    <side-nav class="side-nav"></side-nav>
+    <div class="main-cnt">
+      <router-view />
     </div>
-    <router-view />
   </div>
 </template>
 
@@ -24,14 +24,24 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-#nav {
-  padding: 30px;
-}
 a {
   font-weight: bold;
   color: #2c3e50;
 }
 .router-link-exact-active {
   color: #42b983;
+}
+
+.side-nav {
+  float: left;
+  width: 200px;
+  /* background-color: gray; */
+  height: 100%;
+}
+
+.main-cnt {
+  margin-left: 210px;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
 }
 </style>
